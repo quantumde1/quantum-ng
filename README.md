@@ -15,6 +15,7 @@
 Target CPU: any i386-compatible.
 ### Dependencies
 Linux lite (support qemu only):
+```
 $ sudo apt-get install gcc
 $ sudo apt-get install gcc-arm-none-eabi
 $ sudo apt-get install qemu
@@ -53,13 +54,13 @@ $ sudo make bochs-x86
 ```
 
 ### Shell commands
-
+```
 Proccess list: `ps`
 Kill application: `kill <pid>`
 Run application(broken): `exec <name.elf>`
 Exit(broken, if enable - break kernel): `exit`
 Devices: `dev`
 Clear: `clear`
-
+```
 P.S
 can anyone help with FS? :(
